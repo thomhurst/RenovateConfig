@@ -16,6 +16,7 @@
         "thomhurst/Selenium.BrowserRequestsWaitingWebDriver",
         "thomhurst/PullRequestScanner",
         "thomhurst/ILogger.UnitTest.Verifier",
-        "thomhurst/EventMediator "
+        "thomhurst/EventMediator",
+        "thomhurst/AsyncSemaphore"
      ]
   }
