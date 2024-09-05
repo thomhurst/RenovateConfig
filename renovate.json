@@ -1,6 +1,6 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-     "repositories": [
+    "repositories": [
         "thomhurst/ModularPipelines",
         "thomhurst/BDTest",
         "thomhurst/ReadableTimeSpan",
@@ -15,13 +15,36 @@
         "thomhurst/ILogger.UnitTest.Verifier",
         "thomhurst/EventMediator",
         "thomhurst/AsyncSemaphore"
-     ],
-     "autoApprove": true,
-     "autodiscover": false,
-     "automerge": true,
-     "onboardingConfig": {
-        "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-        "autoApprove": true,
-        "automerge": true
-     }
-  }
+    ],
+    "autodiscover": false,
+    "addLabels": [
+        "dependencies",
+        "renovate-bot"
+    ],
+    "packageRules": [
+        {
+            "matchUpdateTypes": [
+                "major"
+            ],
+            "addLabels": [
+                "MAJOR"
+            ]
+        },
+        {
+            "matchUpdateTypes": [
+                "minor"
+            ],
+            "addLabels": [
+                "MINOR"
+            ]
+        },
+        {
+            "matchUpdateTypes": [
+                "patch"
+            ],
+            "addLabels": [
+                "PATCH"
+            ]
+        }
+    ]
+}
