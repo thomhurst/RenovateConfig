@@ -15,7 +15,8 @@
         "thomhurst/PullRequestScanner",
         "thomhurst/ILogger.UnitTest.Verifier",
         "thomhurst/EventMediator",
-        "thomhurst/AsyncSemaphore"
+        "thomhurst/AsyncSemaphore",
+        "thomhurst/MicrosoftDependencyInjection.ServiceInitialization"
     ],
     "dependencyDashboard": true,
     "autodiscover": false,
