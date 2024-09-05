@@ -1,0 +1,21 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:recommended"
+     ],
+     "repositories": [
+        "thomhurst/ModularPipelines",
+        "thomhurst/BDTest",
+        "thomhurst/ReadableTimeSpan",
+        "thomhurst/Nupendencies",
+        "thomhurst/AllOf",
+        "thomhurst/TUnit",
+        "thomhurst/EnumerableAsyncProcessor",
+        "thomhurst/Selenium.PlaywrightDriver",
+        "thomhurst/Selenium.DynamicWaiting",
+        "thomhurst/Selenium.BrowserRequestsWaitingWebDriver",
+        "thomhurst/PullRequestScanner",
+        "thomhurst/ILogger.UnitTest.Verifier",
+        "thomhurst/EventMediator "
+     ]
+  }
