@@ -3,7 +3,7 @@
     "extends": [
         "config:recommended"
      ],
-     "autodiscoverFilter": [
+     "repositories": [
         "thomhurst/ModularPipelines",
         "thomhurst/BDTest",
         "thomhurst/ReadableTimeSpan",
@@ -20,7 +20,7 @@
         "thomhurst/AsyncSemaphore"
      ],
      "autoApprove": true,
-     "autodiscover": true,
+     "autodiscover": false,
      "automerge": true,
      "onboardingConfig": {
         "$schema": "https://docs.renovatebot.com/renovate-schema.json",
