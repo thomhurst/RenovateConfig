@@ -21,5 +21,3 @@ jobs:
       uses: renovatebot/github-action@v36.0.0
       with:
         token: ${{ secrets.RENOVATE_PAT }}
-      env:
-          RENOVATE_AUTODISCOVER: true
