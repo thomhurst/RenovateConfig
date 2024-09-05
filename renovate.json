@@ -18,5 +18,8 @@
         "thomhurst/ILogger.UnitTest.Verifier",
         "thomhurst/EventMediator",
         "thomhurst/AsyncSemaphore"
-     ]
+     ],
+     "autoApprove": true,
+     "autodiscover": true,
+     "automerge": true
   }
