@@ -16,6 +16,7 @@
         "thomhurst/EventMediator",
         "thomhurst/AsyncSemaphore"
     ],
+    "dependencyDashboard": true,
     "autodiscover": false,
     "addLabels": [
         "dependencies",
