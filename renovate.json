@@ -48,6 +48,10 @@
             "addLabels": [
                 "PATCH"
             ]
-        }
+        },
+        {
+            "matchPackageNames": ["/ModularPipelines/"],
+            "groupName": "ModularPipelines"
+          }
     ]
 }
