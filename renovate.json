@@ -50,8 +50,16 @@
             ]
         },
         {
-            "matchPackageNames": ["/ModularPipelines/"],
+            "matchPackageNames": [
+                "/ModularPipelines/"
+            ],
             "groupName": "ModularPipelines"
-          }
+        },
+        {
+            "matchPackageNames": [
+                "/TUnit/"
+            ],
+            "groupName": "TUnit"
+        }
     ]
 }
