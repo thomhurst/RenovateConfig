@@ -60,6 +60,42 @@
                 "/TUnit/"
             ],
             "groupName": "TUnit"
+        },
+        {
+            "matchPackageNames": [
+                "/xUnit/"
+            ],
+            "groupName": "xUnit"
+        },
+        {
+            "matchPackageNames": [
+                "/NUnit/"
+            ],
+            "groupName": "NUnit"
+        },
+        {
+            "matchPackageNames": [
+                "/MSTest/"
+            ],
+            "groupName": "MSTest"
+        },
+        {
+            "matchPackageNames": [
+                "/Microsoft.Testing/"
+            ],
+            "groupName": "Microsoft.Testing"
+        },
+        {
+            "matchPackageNames": [
+                "/Microsoft.Build/"
+            ],
+            "groupName": "Microsoft.Build"
+        },
+        {
+            "matchPackageNames": [
+                "/Microsoft.Extensions/"
+            ],
+            "groupName": "Microsoft.Extensions"
         }
     ]
 }
