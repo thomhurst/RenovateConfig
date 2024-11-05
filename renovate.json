@@ -96,6 +96,12 @@
                 "/Microsoft.Extensions/"
             ],
             "groupName": "Microsoft.Extensions"
-        }
+        },
+        {
+            "matchPackageNames": [
+                "/docusaurus/"
+            ],
+            "groupName": "Microsoft.Extensions"
+                }
     ]
 }
