@@ -101,7 +101,7 @@
             "matchPackageNames": [
                 "/docusaurus/"
             ],
-            "groupName": "Microsoft.Extensions"
+            "groupName": "Docusaurus"
                 }
     ]
 }
