@@ -77,6 +77,12 @@
         },
         {
             "matchPackageNames": [
+                "/Sourcy/"
+            ],
+            "groupName": "Sourcy"
+        },
+        {
+            "matchPackageNames": [
                 "/MSTest/"
             ],
             "groupName": "MSTest"
@@ -98,6 +104,12 @@
                 "/Microsoft.Extensions/"
             ],
             "groupName": "Microsoft.Extensions"
+        },
+        {
+            "matchPackageNames": [
+                "/docusaurus/"
+            ],
+            "groupName": "Docusaurus"
         }
     ]
 }

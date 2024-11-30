@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
         fetch-depth: 0
 
     - name: Renovate Bot GitHub Action
-      uses: renovatebot/github-action@v40.2.7
+      uses: renovatebot/github-action@v41.0.3
       with:
         token: ${{ secrets.RENOVATE_PAT }}
         configurationFile: renovate.json
