@@ -18,6 +18,8 @@
         "thomhurst/AsyncSemaphore",
         "thomhurst/MicrosoftDependencyInjection.ServiceInitialization"
     ],
+    "rebaseWhen": "auto",
+    "automerge": true,
     "dependencyDashboard": true,
     "autodiscover": false,
     "addLabels": [
