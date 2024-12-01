@@ -21,7 +21,7 @@ jobs:
         fetch-depth: 0
 
     - name: Renovate Bot GitHub Action
-      uses: renovatebot/github-action@v41.0.3
+      uses: renovatebot/github-action@v41.0.5
       with:
         token: ${{ secrets.RENOVATE_PAT }}
         configurationFile: renovate.json
