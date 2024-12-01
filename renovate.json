@@ -18,7 +18,7 @@
         "thomhurst/AsyncSemaphore",
         "thomhurst/MicrosoftDependencyInjection.ServiceInitialization"
     ],
-    "rebaseWhen": "auto",
+    "rebaseWhen": "behind-base-branch",
     "automerge": true,
     "dependencyDashboard": true,
     "autodiscover": false,
