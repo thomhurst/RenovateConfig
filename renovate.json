@@ -110,6 +110,12 @@
                 "/docusaurus/"
             ],
             "groupName": "Docusaurus"
+        }, 
+        {
+            "matchPackageNames": [
+                "/Microsoft.CodeAnalysis/"
+            ],
+            "enabled": false
         }
     ]
 }
