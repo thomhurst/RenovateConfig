@@ -26,6 +26,7 @@
         "dependencies",
         "renovate-bot"
     ],
+    "ignoreDeps": ["Microsoft.Testing.Platform.MSBuild"],
     "packageRules": [
         {
             "matchUpdateTypes": [
