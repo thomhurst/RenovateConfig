@@ -20,6 +20,11 @@ jobs:
       with:
         fetch-depth: 0
 
+    - name: Set Git User
+      run: |
+        git config --global user.email 'bot@renovateapp.com'
+        git config --global user.name 'Renovate Bot'
+
     - name: Renovate Bot GitHub Action
       uses: renovatebot/github-action@v42.0.2
       with:
