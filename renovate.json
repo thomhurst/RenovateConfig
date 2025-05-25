@@ -112,6 +112,12 @@
             ],
             "groupName": "Docusaurus"
         }, 
+                {
+            "matchPackageNames": [
+                "/babel/"
+            ],
+            "groupName": "babel"
+        }, 
         {
             "matchPackageNames": [
                 "/Microsoft.CodeAnalysis/"
