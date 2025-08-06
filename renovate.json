@@ -26,7 +26,7 @@
         "dependencies",
         "renovate-bot"
     ],
-    "ignoreDeps": ["Microsoft.Testing.Platform.MSBuild"],
+    "ignoreDeps": ["Microsoft.Testing.Platform.MSBuild", "Microsoft.Bcl.AsyncInterfaces", "System.Collections.Immutable", "System.Text.Json", "System.Threading.Channels"],
     "packageRules": [
         {
             "matchUpdateTypes": [
