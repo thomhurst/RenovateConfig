@@ -90,6 +90,12 @@
         },
         {
             "matchPackageNames": [
+                "/Verify/"
+            ],
+            "groupName": "Verify"
+        },
+        {
+            "matchPackageNames": [
                 "/Microsoft.Testing/"
             ],
             "groupName": "Microsoft.Testing"
