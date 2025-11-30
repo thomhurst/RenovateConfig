@@ -66,7 +66,7 @@
         },
         {
             "matchPackageNames": [
-                "/xUnit/"
+                "/xunit/"
             ],
             "groupName": "xUnit"
         },
