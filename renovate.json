@@ -120,6 +120,12 @@
         }, 
                 {
             "matchPackageNames": [
+                "/react/"
+            ],
+            "groupName": "react"
+        }, 
+                {
+            "matchPackageNames": [
                 "/babel/"
             ],
             "groupName": "babel"
