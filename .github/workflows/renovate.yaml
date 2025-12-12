@@ -26,7 +26,7 @@ jobs:
         git config --global user.name 'Renovate Bot'
 
     - name: Renovate Bot GitHub Action
-      uses: renovatebot/github-action@v44.0.5
+      uses: renovatebot/github-action@v44.1.0
       with:
         token: ${{ secrets.RENOVATE_PAT }}
         configurationFile: renovate.json
