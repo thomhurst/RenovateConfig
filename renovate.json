@@ -17,7 +17,8 @@
         "thomhurst/EventMediator",
         "thomhurst/AsyncSemaphore",
         "thomhurst/MicrosoftDependencyInjection.ServiceInitialization",
-        "thomhurst/Sourcy"
+        "thomhurst/Sourcy",
+        "thomhurst/Dekaf"
     ],
     "rebaseWhen": "behind-base-branch",
     "automerge": true,
