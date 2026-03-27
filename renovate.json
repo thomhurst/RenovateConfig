@@ -29,9 +29,6 @@
         "renovate-bot"
     ],
     "ignoreDeps": ["Microsoft.Bcl.AsyncInterfaces", "System.Collections.Immutable", "System.Text.Json", "System.Threading.Channels"],
-    "npm": {
-        "fileMatch": ["docs/package\\.json"]
-    },
     "packageRules": [
         {
             "matchUpdateTypes": [
