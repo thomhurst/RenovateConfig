@@ -18,6 +18,7 @@
         "thomhurst/AsyncSemaphore",
         "thomhurst/MicrosoftDependencyInjection.ServiceInitialization",
         "thomhurst/Sourcy",
+        "thomhurst/Spectre.MEL",
         "thomhurst/Dekaf"
     ],
     "rebaseWhen": "behind-base-branch",
