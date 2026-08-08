@@ -19,7 +19,8 @@
         "thomhurst/MicrosoftDependencyInjection.ServiceInitialization",
         "thomhurst/Sourcy",
         "thomhurst/Spectre.MEL",
-        "thomhurst/Dekaf"
+        "thomhurst/Dekaf",
+        "thomhurst/Respire"
     ],
     "rebaseWhen": "behind-base-branch",
     "automerge": true,
