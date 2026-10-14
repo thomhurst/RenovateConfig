@@ -180,6 +180,86 @@
                 "/^Respire/"
             ],
             "groupName": "Respire"
+        },
+        {
+            "matchPackageNames": [
+                "/^AWSSDK\\./"
+            ],
+            "groupName": "AWSSDK"
+        },
+        {
+            "matchPackageNames": [
+                "/^Microsoft\\.EntityFrameworkCore/"
+            ],
+            "groupName": "Microsoft.EntityFrameworkCore"
+        },
+        {
+            "matchPackageNames": [
+                "/^Npgsql/"
+            ],
+            "groupName": "Npgsql"
+        },
+        {
+            "matchPackageNames": [
+                "Polly",
+                "/^Polly\\.(Core|Extensions|RateLimiting|Testing)$/"
+            ],
+            "groupName": "Polly"
+        },
+        {
+            "matchPackageNames": [
+                "/^Swashbuckle\\.AspNetCore/"
+            ],
+            "groupName": "Swashbuckle"
+        },
+        {
+            "matchPackageNames": [
+                "/^Grpc\\./"
+            ],
+            "groupName": "Grpc"
+        },
+        {
+            "matchPackageNames": [
+                "/^Testcontainers/"
+            ],
+            "groupName": "Testcontainers"
+        },
+        {
+            "matchPackageNames": [
+                "/^Spectre\\.Console/"
+            ],
+            "groupName": "Spectre.Console"
+        },
+        {
+            "matchPackageNames": [
+                "Selenium.WebDriver",
+                "Selenium.Support"
+            ],
+            "groupName": "Selenium"
+        },
+        {
+            "matchPackageNames": [
+                "/^MassTransit/"
+            ],
+            "groupName": "MassTransit"
+        },
+        {
+            "matchPackageNames": [
+                "/^HotChocolate\\./"
+            ],
+            "groupName": "HotChocolate"
+        },
+        {
+            "matchPackageNames": [
+                "/^Microsoft\\.Orleans\\./"
+            ],
+            "groupName": "Orleans"
+        },
+        {
+            "matchPackageNames": [
+                "/^Avalonia/"
+            ],
+            "groupName": "Avalonia"
         }
     ]
 }
